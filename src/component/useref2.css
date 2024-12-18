@@ -1,0 +1,14 @@
+input{
+    margin:10px;
+    
+}
+.wrap{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    
+}
+.wrap button{
+    margin:10px;
+    
+}

@@ -29,6 +29,7 @@ const Usestate = () => {
     }
     const reset=()=>{
         setCount(0);
+        
     }
   return (
 

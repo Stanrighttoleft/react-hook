@@ -8,14 +8,17 @@ div {
 }
 .colorbutton{
     display:flex;
-    width:20%;
+    width:50px;
+
 
     flex-direction:row;
-    justify-content:space-between;
     align-items:center;
 
-   
-    
+}
+.colorbutton button{
+    background-color:white;
+    color:black;
+    margin:10px;
 
 
 }

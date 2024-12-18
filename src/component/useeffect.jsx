@@ -16,7 +16,7 @@ const Useeffect = () => {
 
   return (
     <div>
-        <h1>I have render the page {count} times</h1>
+        <h1>The page has rendered {count} times</h1>
 
     </div>
   )
