@@ -6,6 +6,9 @@ import Useref2 from './component/useref2'
 import Usememo from './component/usememo'
 import Usememo1 from './component/usememo1'
 import Usecallback from './component/usecallback'
+import Usecontextprofile from './component/usecontext-profile'
+import Usecontextfooter from './component/usecontext-footer'
+import Usereducer from './component/usereducer'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,6 +32,10 @@ function App() {
 
         <button onClick={()=>setCount(prev=>prev+1)}>Click Here</button>
         <p>this is the {count}</p>
+
+        <Usecontextprofile/>
+        <Usecontextfooter/>
+        <Usereducer/>
 
         
       
