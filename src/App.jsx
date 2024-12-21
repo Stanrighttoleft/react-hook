@@ -8,7 +8,7 @@ import Usememo1 from './component/usememo1'
 import Usecallback from './component/usecallback'
 import Usecontextprofile from './component/usecontext-profile'
 import Usecontextfooter from './component/usecontext-footer'
-import Usereducer from './component/usereducer'
+import Usereducer1 from './component/usereducer'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,7 +35,7 @@ function App() {
 
         <Usecontextprofile/>
         <Usecontextfooter/>
-        <Usereducer/>
+        <Usereducer1/>
 
         
       
