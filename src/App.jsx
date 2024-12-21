@@ -10,6 +10,7 @@ import Usecontextprofile from './component/usecontext-profile'
 import Usecontextfooter from './component/usecontext-footer'
 import Usereducer1 from './component/usereducer'
 import Uselayouteffect from './component/uselayouteffect'
+import Custom from './component/customhook'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Usecontextfooter/>
         <Usereducer1/>
         <Uselayouteffect/>
+        <Custom/>
 
         
       
