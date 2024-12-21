@@ -5,11 +5,11 @@ import { useActionState } from 'react'
 
 const Usereducer = () => {
     const initialstate={count:0}
-    const reducer=(state, action)=>{
+    const reducer=(state,action)=>{
         return {count:state.count+1}
     }
+    const [state, dispatch]=useReducer=(reducer, initialstate)
     
-    const [state, dispatch]=useReducer(reducer, initialstate)
 
    
   return (
