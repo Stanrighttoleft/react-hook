@@ -9,6 +9,8 @@ import Usecallback from './component/usecallback'
 import Usecontextprofile from './component/usecontext-profile'
 import Usecontextfooter from './component/usecontext-footer'
 import Usereducer1 from './component/usereducer'
+import Uselayouteffect from './component/uselayouteffect'
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -36,6 +38,7 @@ function App() {
         <Usecontextprofile/>
         <Usecontextfooter/>
         <Usereducer1/>
+        <Uselayouteffect/>
 
         
       
